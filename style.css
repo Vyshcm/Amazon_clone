@@ -7,7 +7,9 @@
     height: 60px;
     background-color: #0f1111;
     color: white;
-
+    display: flex;
+    align-items: center;
+   
 }
 .nav-logo{
     padding: 5px 5px;
@@ -36,3 +38,82 @@
 .border:hover{
     border: 1.5px solid white;
 }
+
+/* box 2 */
+
+.address-first{
+    font-size: smaller;
+    color: #cccccc;
+}
+.add-icon{
+    display: flex;
+}
+.address-first{
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.nav-address{
+     
+    width: 130px;
+    height: 40px;
+    display: grid;
+    align-items: center;
+
+    
+}
+
+/* box3 */
+.search-bar{
+    height: 40px;
+    width: 400px;
+
+    display: flex;
+    justify-content: center;
+    
+    /* border-radius: 3%; */
+    
+    
+    
+}
+
+.search-bar:focus-within {
+    border: 2px solid orange;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+     border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.search-select{
+    background-color: #cccccc;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.search-select:hover{
+    cursor: pointer;
+}
+
+.search-input{
+    width: 350px;
+    font-size: 1rem;
+    border: none;
+     outline: none;          /* removes the black focus box */
+  box-shadow: none;       /* some browsers add shadow */
+}
+
+.search-icon{
+    height: 40px;
+    width: 46px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
+    background-color:#febd68 ;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.search-icon:hover{
+     cursor: pointer;
+      background-color:rgba(209, 119, 8, 0.874) ;
+}
+/* box4 */
