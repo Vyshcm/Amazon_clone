@@ -195,3 +195,78 @@ span{
 .panel-contents div {
     padding: 8px 16px;
 }
+
+/* hero section */
+
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+}
+
+.hero-message{
+    background-color: white;
+    height: 40px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 250px;
+    font-size: 0.95rem;
+    margin-left: 30px;
+
+}
+a{
+    color: rgb(50, 90, 89);
+}
+
+/* box-sesssion */
+
+.box{
+    height: 400px;
+    width: 23%;
+    
+    border: 2px solid white;
+    background-color: white;
+}
+.box-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+     gap: 20px;
+     padding-top: 20px;
+     /* margin-top: 20px; */
+     background-color: #e2e7e6;
+
+}
+.image{
+    height:320px ;
+    width: 95%;
+    margin: 10px;
+    /* margin-left: 10px;
+    margin-right: 15px; */
+    /* padding: 20px 0px 15px; */
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+
+    /* display: flex;
+    justify-content: center; */
+
+}
+/* .box1{
+     display: flex;
+    flex-direction: column;
+} */
+.heading{
+    font-size: 15px;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+.see{
+    font-size: smaller;
+     padding-left: 15px;
+     color: rgb(13, 126, 128);
+}
